@@ -1,3 +1,6 @@
 ### JupyterNotebook ###
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+### Unity Environment ###
+unity-environment.log
