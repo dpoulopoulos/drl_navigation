@@ -4,7 +4,7 @@ Unity Machine Learning Agents (ML-Agents) is an open-source Unity plugin that en
 
 For game developers, these trained agents can be used for multiple purposes, including controlling [NPC](https://en.wikipedia.org/wiki/Non-player_character) behaviour (in a variety of settings such as multi-agent and adversarial), automated testing of game builds and evaluating different game design decisions pre-release.
 
-In this project, we develop a Deep Q-Learning agent that utilises its newly acquired skills to navigate in a large, square example world and collect bananas. A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+In this project, we develop a Deep Q-Learning agent that utilises its newly acquired skills to navigate in a large, square example world and collect bananas. A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
 
@@ -13,7 +13,7 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 * turn left
 * turn right
 
-The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+The task is episodic, and in order to solve the environment, the agent must get an average score of +13 over 100 consecutive episodes.
 
 ## Dependencies
 
